@@ -1,7 +1,7 @@
 #Specify a base image
 FROM node:14-alpine
 
-WORKDIR /usr/app
+WORKDIR /usr/app/simpleFirstApp
 
 #Install dependencies
 COPY ./package.json ./
